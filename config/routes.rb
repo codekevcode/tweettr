@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   #define routes for pages
   get 'pages/home' => 'pages#home'
   get 'pages/explore' => 'pages#explore'
-  get 'user/:id' => 'pages#profile'
+  get 'user/:id ' => 'pages#profile'
   get 'pages/help' => 'pages#help'
   get 'pages/settings' => 'pages#settings'
 
